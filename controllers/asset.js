@@ -18,7 +18,7 @@ export function addAsset(req, res) {
         .status(500)
         .send({ error: 'Backend error! Could not save new asset' });
     }
-    return res.status(200).send();
+    return res.status(200).send({ id: newAsset._id });
   });
 }
 
