@@ -1,0 +1,4 @@
+const data_key_private =
+  'dasdasdafsdsdfodasdasdFU5ekQ0kL6jasdasdasp4dasda2ZVdXXuqZsadasdasQYcHS3sasdasdasO1sadas';
+
+export default data_key_private;
