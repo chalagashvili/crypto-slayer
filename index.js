@@ -5,9 +5,10 @@ import morgan from 'morgan';
 import mongoose from 'mongoose';
 import router from './routes';
 import { cloudSettings as config } from './config';
+import passport from 'passport';
 /* eslint-disable no-unused-vars */
 const app = express();
-const passport = require('passport');
+require('dotenv').config();
 mongoose.connect(config.cloudDbURL, { useNewUrlParser: true });
 mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
