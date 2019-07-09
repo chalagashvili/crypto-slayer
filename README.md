@@ -14,4 +14,4 @@ Front-end and back-end codebases for Crypto Portfolio Management Web App
 * cd to the _crypto-slayer-frontend_ folder
 * run `npm install`
 * run `npm start`
-* Development website will be running now on **http://localhost:3000**
+* Development website will be running now on **http://localhost:3000/signUp**
